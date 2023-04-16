@@ -1,0 +1,4 @@
+.places__intro{
+    display: flex;
+    flex-wrap: wrap;
+}

@@ -1,0 +1,19 @@
+.header__lang-link_lang_En{
+    position: absolute;
+    width: 29px;
+    height: 28px;
+    right: 48px;
+    top: 46px;
+}
+@media screen and (max-width: 768px){
+    .header__lang-link_lang_En{
+        right: 24px;
+    }
+}
+@media screen and (max-width: 320px){
+    .header__lang-link_lang_En{
+        width: 22px;
+        height: 20px;
+        right: 16px;
+    }
+}

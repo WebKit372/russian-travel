@@ -1,0 +1,6 @@
+.intro{
+    box-sizing: border-box;
+    padding-top: 114px;
+    max-width: 690px;
+    margin-left: calc((100% - 984px)/2);
+}

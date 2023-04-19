@@ -1,4 +1,8 @@
 .places__intro{
     display: flex;
-    flex-wrap: wrap;
+}
+@media screen and (max-width: 767px){
+    .places__intro{
+        flex-direction: column;
+        padding: 0 0 0 16px;
 }

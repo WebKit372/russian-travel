@@ -4,6 +4,7 @@
     height: 28px;
     right: 48px;
     top: 46px;
+    text-decoration: none;
 }
 @media screen and (max-width: 768px){
     .header__lang-link_lang_En{

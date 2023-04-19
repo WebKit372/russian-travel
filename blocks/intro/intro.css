@@ -1,6 +1,20 @@
 .intro{
-    box-sizing: border-box;
-    padding-top: 114px;
+    display: flex;
+    flex-direction: column;
+    padding: 92px  0 0 148px;
     max-width: 690px;
-    margin-left: calc((100% - 984px)/2);
+}
+@media screen and (max-width: 1024px){
+    .intro{
+        padding-left: 48px;
+}
+@media screen and (max-width: 768px){
+    .intro{
+        padding: 88px 0 0 24px;
+}
+@media screen and (max-width: 320px){
+    .intro{
+        padding-left: 16px;
+        padding-right: 16px;
+        padding-top: 64px;
 }

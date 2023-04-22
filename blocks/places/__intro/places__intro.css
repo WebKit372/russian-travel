@@ -1,9 +1,0 @@
-.places__intro{
-    display: flex;
-}
-@media screen and (max-width: 767px){
-    .places__intro{
-        flex-direction: column;
-        padding: 0 0 0 16px;
-    }
-}

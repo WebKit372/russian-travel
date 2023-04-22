@@ -1,8 +1,9 @@
 .places__website{
-    margin: 106px 0 0 40px;
+    align-self: flex-end;
+    justify-self: flex-start;
 }
 @media screen and (max-width: 767px){
     .places__website{
-        margin: 32px 0 0;
+        margin: 32px 16px 0;
     }
 }

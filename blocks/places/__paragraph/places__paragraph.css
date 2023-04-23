@@ -1,7 +1,7 @@
 .places__paragraph{
     max-width: 100%;
     margin: 0 0 26px 0;
-    font-family: 'Inter';
+    font-family: Inter, Arial, sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 18px;
@@ -10,6 +10,9 @@
 
 
     color: #FFFFFF;
+}
+.places__paragraph:nth-last-child(1){
+    margin: 0 0 0 0;
 }
 @media screen and (max-width:768px){
     .places__paragraph{
